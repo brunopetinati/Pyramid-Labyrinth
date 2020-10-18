@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-color: #e9c788;
+}
+
+
+#player {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 504px;
+    left: 364px;
+    border-radius: 30%;
+    border: solid 4px rgb(77, 97, 211);
+    background-color: rgb(248, 252, 10);
+    animation-duration: 100ms;
+} 
+
+#labirinto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.labirinto {
+    display: flex;
+}
+
+.parede, .caminho, .inicio, .fim {
+    width: 20px;
+    height: 20px;
+}
+
+.caminho {
+    border: solid #df8080 4px;
+    background-color: #df8080
+}
+
+.parede {
+    border: solid #b66161 4px;
+    background-color: #b66161;
+}
+
+.inicio {
+    border: groove rgb(219, 146, 146) 4px;
+    background-color: rgb(238, 144, 144);
+}
+
+.fim {
+    border: groove white 4px;
+    background-color: white;
+}
