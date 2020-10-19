@@ -1,5 +1,5 @@
-/* A realização desse exercício consiste em três partes principais: a movimentação, a construção do labirinto e 
-definições de classes, e uma função que checa se a movimentação.  */
+/* A realização desse exercício consiste em três partes principais: a movimentação, 
+a construção do labirinto e definições de classes, e uma função que checa se a movimentação.  */
 
 
 let player = document.getElementById("player")
@@ -152,7 +152,7 @@ document.addEventListener('keydown', event => {
 
 
 
-// 3. Função que checa a movimentação
+// Função que checa a movimentação
 
 // usa-se o array de paredes (onde encontram-se todos os "casos de W")
 
